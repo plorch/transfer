@@ -345,7 +345,7 @@ def import_config(config_file):
     for listed in os.listdir(import_temp_path):
         if os.path.isdir(listed):
             project_name = listed
-    #project_name = os.listdir(import_temp_path)[0]
+#    project_name = os.listdir(import_temp_path)[0]
 
     project_path = os.path.join(transfer_path, 'import', project_name)
     #call(['mkdir','-p', project_path])

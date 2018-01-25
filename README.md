@@ -69,8 +69,12 @@ You can use ~/ or ~\ shortcut and it should be interpreted correctly.
 
 ## Predict on an image or directory
 
-`transfer --predict`
+`transfer --predict --project project_name`
+
+or, for example,
+
+`transfer --predict --project trail-cam-animal-v-empty`
 
 ## Setup a REST api to do predictions
 
-`transfer --prediction-rest-api`
+`transfer --prediction-rest-api --project project_name`
